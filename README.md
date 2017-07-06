@@ -17,6 +17,7 @@
 
 * ng-repeat
 * ng-src    # `<image src="{{prod.images[0].full}}"/>` doesn't work as browser tries to load the image before the expression evaluates
+* ng-options="stars for stars in [5,4,3,2,1]"
 
 * ng-init   # better do it inside a controller
 * ng-click  # `<a ng-click='tab = 1'>`
@@ -29,3 +30,7 @@
 * limitTo   # for string length or array element number
 * uppercase/lowercase
 * orderBy   # sort: orderBy: '-price'
+
+## Form Validation
+$valid
+input control class: ng-pristine -> ng-dirty -> ng-valid
